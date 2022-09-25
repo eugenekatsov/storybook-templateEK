@@ -4,10 +4,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-      - run: export SAUCE_USERNAME=${{ secrets.SAUCE_USERNAME }}
-      - run: export SAUCE_ACCESS_KEY=${{ secrets.SAUCE_ACCESS_KEY }}
+      - uses: actions/setup-node@v2
       - run: npm install
       - run: npm run test-storybook
         env:
           SCREENER_API_KEY: ${{ secrets.SCREENER_API_KEY }}
+          SAUCE_USERNAME: ${{ secrets.SAUCE_USERNAME }}
+          SAUCE_ACCESS_KEY: ${{ secrets.SAUCE_ACCESS_KEY }}
