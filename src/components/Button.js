@@ -5,7 +5,7 @@ const Button = () => {
     return (
         <>
             <button>
-                This is a big ole button
+                button
             </button>
         </>
     )
