@@ -2,6 +2,8 @@ module.exports = {
     projectRepo: 'abrown/storyBook',
     storybookConfigDir: '.storybook',
     apiKey: process.env.SCREENER_API_KEY,
+    failureExitCode: 0,
+    commit: process.env.COMMIT_SHA,
     resolutions: [
       '360x640',
       '1024x768'
