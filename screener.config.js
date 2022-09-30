@@ -1,7 +1,6 @@
 module.exports = {
     projectRepo: 'abrown/storyBook',
     storybookConfigDir: '.storybook',
-    storybookStaticBuildDir: 'storybook-static',
     apiKey: process.env.SCREENER_API_KEY,
     baseBranch: "main",
     failureExitCode:0,
