@@ -1,13 +1,10 @@
 module.exports = {
     projectRepo: 'abrown/storyBook',
     storybookConfigDir: '.storybook',
-<<<<<<< HEAD
-    storybookStaticBuildDir: 'storybook-static',
     apiKey: process.env.SCREENER_API_KEY,
     baseBranch: "main",
+    failureExitCode:0,
     resolution: '360x640',
-=======
-    apiKey: process.env.SCREENER_API_KEY,
     failureExitCode: 0,
     baseBranch: 'main',
     commit: process.env.COMMIT_SHA,
@@ -15,7 +12,6 @@ module.exports = {
       '360x640',
       '1024x768'
     ],
->>>>>>> a9f542802b3447d5d99328bd8f6865433e9790f4
     browsers: [
       {
         browserName: 'chrome',
