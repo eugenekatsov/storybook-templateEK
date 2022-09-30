@@ -5,6 +5,13 @@ module.exports = {
     baseBranch: "main",
     failureExitCode:0,
     resolution: '360x640',
+    failureExitCode: 0,
+    baseBranch: 'main',
+    commit: process.env.COMMIT_SHA,
+    resolutions: [
+      '360x640',
+      '1024x768'
+    ],
     browsers: [
       {
         browserName: 'chrome',
