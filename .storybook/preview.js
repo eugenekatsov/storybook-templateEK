@@ -11,23 +11,3 @@ export const parameters = {
 if (typeof window === 'object') {
   window.__screener_storybook__ = require('@storybook/react').getStorybook;
 }
-
-
-if (typeof window === 'object') {
-  window.__screener_storybook__ = require('@storybook/react').getStorybook;
-}
-
-
-if (typeof window === 'object') {
-  window.__screener_storybook__ = require('@storybook/react').getStorybook;
-}
-
-
-if (typeof window === 'object') {
-  window.__screener_storybook__ = require('@storybook/react').getStorybook;
-}
-
-
-if (typeof window === 'object') {
-  window.__screener_storybook__ = require('@storybook/react').getStorybook;
-}
