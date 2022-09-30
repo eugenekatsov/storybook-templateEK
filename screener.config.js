@@ -4,9 +4,6 @@ module.exports = {
     apiKey: process.env.SCREENER_API_KEY,
     baseBranch: "main",
     failureExitCode:0,
-    resolution: '360x640',
-    failureExitCode: 0,
-    baseBranch: 'main',
     commit: process.env.COMMIT_SHA,
     resolutions: [
       '360x640',
