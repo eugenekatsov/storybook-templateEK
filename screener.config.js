@@ -3,7 +3,7 @@ module.exports = {
     storybookConfigDir: '.storybook',
     apiKey: process.env.SCREENER_API_KEY,
     baseBranch: "main",
-    failureExitCode:0,
+    failureExitCode:1,
     commit: process.env.COMMIT_SHA,
     resolutions: [
       '360x640',
