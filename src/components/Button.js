@@ -5,7 +5,7 @@ const Button = () => {
     return (
         <>
             <button>
-                This is an average button
+                This is a less average button
             </button>
         </>
     )
