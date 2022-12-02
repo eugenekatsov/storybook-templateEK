@@ -5,7 +5,7 @@ const Button = () => {
     return (
         <>
             <button>
-                This is a test for button
+                This is a now larger button
             </button>
         </>
     )
